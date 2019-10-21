@@ -99,7 +99,7 @@ outputs = wrappers.TimeDistributed(Dense(embed_dim))(x)
 decoder = Model([latent_inputs, h, c], outputs, name='decoder')
 decoder.summary()
 
-# instantiate VAE model
+# instantiate VRAE model
 outputs = decoder(encoder(inputs)[2:])
 vrae = Model(inputs, outputs, name='vrae')
 
