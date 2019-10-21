@@ -109,6 +109,9 @@ Demonstrates how to build a variational autoencoder.
 [variational_autoencoder_deconv.py](variational_autoencoder_deconv.py)
 Demonstrates how to build a variational autoencoder with Keras using deconvolution layers.
 
+[variational_recurrent_autoencoder.py](variational_recurrent_autoencoder.py)
+Demonstrates how to build a variational recurrent autoencoder.
+
 ----
 
 ## Examples demonstrating specific Keras functionality
